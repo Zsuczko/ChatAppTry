@@ -3248,23 +3248,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bbucz\\.nuget\\packages\\": {},
+    "C:\\Users\\buczko.bela\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bbucz\\Documents\\Repos\\ChatAppTry\\ServerSide\\ChatApi\\ChatApi\\ChatApi.csproj",
+      "projectUniqueName": "C:\\Users\\buczko.bela\\Documents\\Git\\ChatAppTry\\ServerSide\\ChatApi\\ChatApi\\ChatApi.csproj",
       "projectName": "ChatApi",
-      "projectPath": "C:\\Users\\bbucz\\Documents\\Repos\\ChatAppTry\\ServerSide\\ChatApi\\ChatApi\\ChatApi.csproj",
-      "packagesPath": "C:\\Users\\bbucz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bbucz\\Documents\\Repos\\ChatAppTry\\ServerSide\\ChatApi\\ChatApi\\obj\\",
+      "projectPath": "C:\\Users\\buczko.bela\\Documents\\Git\\ChatAppTry\\ServerSide\\ChatApi\\ChatApi\\ChatApi.csproj",
+      "packagesPath": "C:\\Users\\buczko.bela\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\buczko.bela\\Documents\\Git\\ChatAppTry\\ServerSide\\ChatApi\\ChatApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\bbucz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\buczko.bela\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3291,7 +3291,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -3339,7 +3339,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

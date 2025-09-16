@@ -2,7 +2,10 @@
 {
     public class Chat
     {
-
+        public Chat()
+        {
+            TimeStamp = DateTime.Now;
+        }
         public int Id { get; set; }
 
         public string Message { get; set; }

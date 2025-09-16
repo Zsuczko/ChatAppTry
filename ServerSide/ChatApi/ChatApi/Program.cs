@@ -49,6 +49,13 @@ namespace ChatApi
                 };
             });
 
+            builder.Services.AddSignalR(options =>
+            {
+                options.EnableDetailedErrors = true;
+            });
+
+
+
             builder.Services.AddScoped<JWTService>();
 
             var app = builder.Build();

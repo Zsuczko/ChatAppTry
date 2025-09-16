@@ -33,12 +33,34 @@
   },
   {
     "ContainingType": "ChatApi.Controllers.ChatController",
-    "Method": "SendMessage",
-    "RelativePath": "api/Chat/send",
+    "Method": "History",
+    "RelativePath": "api/Chat/history",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatApi.Controllers.ChatController",
+    "Method": "SendMessage",
+    "RelativePath": "api/Chat/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "send",
+        "Type": "ChatApi.Controllers.SendClass",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
