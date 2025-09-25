@@ -1,7 +1,7 @@
 import { createContext, useEffect, useState} from "react"
 import Login from "./elements/Login"
 import { Toaster } from "./components/ui/sonner"
-import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom"
+import { Route, Routes, useNavigate } from "react-router-dom"
 import Home from "./elements/Home"
 
 
@@ -29,12 +29,9 @@ function App() {
     else{
       navigate("/login")
     }
-    console.log(token," - " ,storedToken)
+    // console.log(token," - " ,storedToken)
   },[])
 
-  useEffect(()=>{
-    console.log(token)
-  },[token])
 
   return (
     <>
