@@ -20,6 +20,7 @@ const Login = () => {
             const data = await LoginRequest({username, password})
             console.log(data.token)
             token.setToken(data.token);
+            localStorage.setItem("token", data.token)
         }
         catch (error){
             if(error instanceof Error){

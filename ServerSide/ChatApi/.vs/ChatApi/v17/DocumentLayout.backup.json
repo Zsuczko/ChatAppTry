@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\buczko.bela\\Documents\\Git\\ChatAppTry\\ServerSide\\ChatApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7B8B650-F3F4-43F3-B702-32816EB063F8}|ChatApi\\ChatApi.csproj|c:\\users\\buczko.bela\\documents\\git\\chatapptry\\serverside\\chatapi\\chatapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7B8B650-F3F4-43F3-B702-32816EB063F8}|ChatApi\\ChatApi.csproj|solutionrelative:chatapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7B8B650-F3F4-43F3-B702-32816EB063F8}|ChatApi\\ChatApi.csproj|c:\\users\\buczko.bela\\documents\\git\\chatapptry\\serverside\\chatapi\\chatapi\\controllers\\wscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B8B650-F3F4-43F3-B702-32816EB063F8}|ChatApi\\ChatApi.csproj|solutionrelative:chatapi\\controllers\\wscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7B8B650-F3F4-43F3-B702-32816EB063F8}|ChatApi\\ChatApi.csproj|c:\\users\\buczko.bela\\documents\\git\\chatapptry\\serverside\\chatapi\\chatapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7B8B650-F3F4-43F3-B702-32816EB063F8}|ChatApi\\ChatApi.csproj|solutionrelative:chatapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7B8B650-F3F4-43F3-B702-32816EB063F8}|ChatApi\\ChatApi.csproj|c:\\users\\buczko.bela\\documents\\git\\chatapptry\\serverside\\chatapi\\chatapi\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7B8B650-F3F4-43F3-B702-32816EB063F8}|ChatApi\\ChatApi.csproj|solutionrelative:chatapi\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7B8B650-F3F4-43F3-B702-32816EB063F8}|ChatApi\\ChatApi.csproj|c:\\users\\buczko.bela\\documents\\git\\chatapptry\\serverside\\chatapi\\chatapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B8B650-F3F4-43F3-B702-32816EB063F8}|ChatApi\\ChatApi.csproj|solutionrelative:chatapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7B8B650-F3F4-43F3-B702-32816EB063F8}|ChatApi\\ChatApi.csproj|c:\\users\\buczko.bela\\documents\\git\\chatapptry\\serverside\\chatapi\\chatapi\\controllers\\wscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7B8B650-F3F4-43F3-B702-32816EB063F8}|ChatApi\\ChatApi.csproj|solutionrelative:chatapi\\controllers\\wscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7B8B650-F3F4-43F3-B702-32816EB063F8}|ChatApi\\ChatApi.csproj|c:\\users\\buczko.bela\\documents\\git\\chatapptry\\serverside\\chatapi\\chatapi\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B8B650-F3F4-43F3-B702-32816EB063F8}|ChatApi\\ChatApi.csproj|solutionrelative:chatapi\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7B8B650-F3F4-43F3-B702-32816EB063F8}|ChatApi\\ChatApi.csproj|c:\\users\\buczko.bela\\documents\\git\\chatapptry\\serverside\\chatapi\\chatapi\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,37 +50,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\buczko.bela\\Documents\\Git\\ChatAppTry\\ServerSide\\ChatApi\\ChatApi\\Program.cs",
               "RelativeDocumentMoniker": "ChatApi\\Program.cs",
               "ToolTip": "C:\\Users\\buczko.bela\\Documents\\Git\\ChatAppTry\\ServerSide\\ChatApi\\ChatApi\\Program.cs",
               "RelativeToolTip": "ChatApi\\Program.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwEIAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwEIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T06:41:40.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T06:41:40.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "WsController.cs",
               "DocumentMoniker": "C:\\Users\\buczko.bela\\Documents\\Git\\ChatAppTry\\ServerSide\\ChatApi\\ChatApi\\Controllers\\WsController.cs",
               "RelativeDocumentMoniker": "ChatApi\\Controllers\\WsController.cs",
               "ToolTip": "C:\\Users\\buczko.bela\\Documents\\Git\\ChatAppTry\\ServerSide\\ChatApi\\ChatApi\\Controllers\\WsController.cs",
               "RelativeToolTip": "ChatApi\\Controllers\\WsController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAEoAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAowEUAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T11:22:40.463Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ChatController.cs",
               "DocumentMoniker": "C:\\Users\\buczko.bela\\Documents\\Git\\ChatAppTry\\ServerSide\\ChatApi\\ChatApi\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "ChatApi\\Controllers\\ChatController.cs",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "ChatApi\\Controllers\\ChatController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T12:08:00.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T12:08:00.65Z"
             },
             {
               "$type": "Document",
@@ -123,7 +121,7 @@
               "RelativeDocumentMoniker": "ChatApi\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\buczko.bela\\Documents\\Git\\ChatAppTry\\ServerSide\\ChatApi\\ChatApi\\Controllers\\AuthController.cs",
               "RelativeToolTip": "ChatApi\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAcwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T08:53:03.285Z",
               "EditorCaption": ""

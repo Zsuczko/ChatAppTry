@@ -1,6 +1,8 @@
-import { createContext} from "react"
+import { createContext, useEffect, useState} from "react"
 import Login from "./elements/Login"
 import { Toaster } from "./components/ui/sonner"
+import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom"
+import Home from "./elements/Home"
 
 
 export type TokenContextType ={
@@ -14,12 +16,35 @@ export const tokenCtxt = createContext<TokenContextType>({token:"", setToken:()=
 
 function App() {
 
+  const navigate = useNavigate()
+
+  const [token, setToken] = useState<string>("")
+
+
+  useEffect(()=>{
+    const storedToken = localStorage.getItem("token");
+    if(storedToken){
+      setToken(storedToken)
+    }
+    else{
+      navigate("/login")
+    }
+    console.log(token," - " ,storedToken)
+  },[])
+
+  useEffect(()=>{
+    console.log(token)
+  },[token])
 
   return (
     <>
-    <tokenCtxt.Provider value={{token:"", setToken:()=>{}}}>
-      <Login></Login>
-      <Toaster position="top-center" richColors></Toaster>
+    <tokenCtxt.Provider value={{token:token, setToken:setToken}}>
+
+        <Routes>
+          <Route path="/" element={<Home></Home>}></Route>
+          <Route path="/login" element={<Login></Login>}></Route>
+        </Routes>
+        <Toaster position="top-center" richColors></Toaster>
     </tokenCtxt.Provider>
     </>
   )

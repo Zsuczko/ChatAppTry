@@ -59,7 +59,23 @@ namespace ChatApi.Controllers
 
             _sockets[username] = websockets;
 
+
+
             var buffer = new byte[1024 * 4];
+
+            foreach (var usernames in _sockets.Keys) {
+
+                _sockets.TryGetValue(usernames, out var receiverSocket);
+
+                var users = _sockets.Keys.Where(x=>x != usernames).ToList();
+
+                string json = JsonSerializer.Serialize(users);
+
+                var bytes43 = Encoding.UTF8.GetBytes(json);
+
+                await receiverSocket.SendAsync(new ArraySegment<byte>(bytes43), WebSocketMessageType.Text, true, CancellationToken.None);
+            }
+
             while (websockets.State == WebSocketState.Open)
             {
 
