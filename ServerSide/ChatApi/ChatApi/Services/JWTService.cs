@@ -32,7 +32,7 @@ namespace ChatApi.Services
                 issuer:"localhost",
                 audience:"localhost",
                 claims: claims,
-                expires: DateTime.UtcNow.AddMinutes(Convert.ToDouble(60)),
+                expires: DateTime.UtcNow.AddMinutes(Convert.ToDouble(600)),
                 signingCredentials: creds
                 );
 

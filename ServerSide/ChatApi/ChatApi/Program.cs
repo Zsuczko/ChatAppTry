@@ -35,18 +35,6 @@ namespace ChatApi
                     ValidAudience = "localhost",
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("my-super-secret-key111111111111111111111111111111111"))
                 };
-                options.Events = new Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents
-                {
-                    OnMessageReceived = context =>
-                    {
-                        var accessToken = context.Request.Query["access_token"];
-                        if (!string.IsNullOrEmpty(accessToken))
-                        {
-                            context.Token = accessToken;
-                        }
-                        return Task.CompletedTask;
-                    }
-                };
             });
 
             builder.Services.AddSignalR(options =>
@@ -54,6 +42,13 @@ namespace ChatApi
                 options.EnableDetailedErrors = true;
             });
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowFrontend",
+                    policy => policy.WithOrigins("http://localhost:5173")
+                                    .AllowAnyHeader()
+                                    .AllowAnyMethod());
+            });
 
 
             builder.Services.AddScoped<JWTService>();
@@ -69,6 +64,7 @@ namespace ChatApi
 
 
             app.UseWebSockets();
+            app.UseCors("AllowFrontend");
 
             app.MapControllers();
 
